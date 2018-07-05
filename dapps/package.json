@@ -1,0 +1,37 @@
+{
+  "name": "react-boilerplate",
+  "version": "1.0.0",
+  "description": "react-boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack --config ./webpack.config.watch.js",
+    "build": "webpack --config ./webpack.config.build.js",
+    "test": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hrntknr/react-boilerplate"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hrntknr/react-boilerplate/issues"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.49",
+    "@babel/preset-env": "^7.0.0-beta.49",
+    "@babel/preset-react": "^7.0.0-beta.49",
+    "babel-loader": "^8.0.0-beta.3",
+    "copy-webpack-plugin": "^4.5.1",
+    "css-loader": "^0.28.11",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-router-dom": "^4.2.2",
+    "style-loader": "^0.21.0",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.9.1",
+    "webpack-command": "^0.2.0"
+  },
+  "dependencies": {}
+}
