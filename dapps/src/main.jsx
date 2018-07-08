@@ -10,4 +10,4 @@ ReactDOM.render(
     </Switch>
   </HashRouter>,
   document.getElementById('app')
-)
+);
